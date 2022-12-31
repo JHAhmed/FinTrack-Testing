@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "fs": "^0.0.1-security",
+    "google-spreadsheet": "^3.3.0",
+    "requirejs": "^2.3.6"
+  }
+}

@@ -1,0 +1,223 @@
+body {
+  background-color: #040308;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin: 3rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.track {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.center-box {
+  background-color: #382960;
+  border-radius: 4rem;
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-group {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.btn-radio {
+  border-radius: 1rem;
+  padding-top: 0.6rem;
+}
+
+.btn {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+
+.enter-button {
+  background-color: #9768F6;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 4rem;
+  border: 0;
+  width: 25%;
+  height: 3rem;
+  text-align: center;
+  /* padding: 4rem; */
+}
+
+.form-control {
+  height: 3rem;
+  background-color: #ECE1FF;
+  border-radius: 1rem;
+}
+
+.form-select {
+  /* color: black; */
+  height: 3rem;
+  background-color: #ECE1FF;
+  border-radius: 1rem;
+}
+
+
+.money-input {
+  height: 4.3rem;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#amount-input {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: white;
+}
+
+.input-box {
+  height: 5rem;
+  /* margin: 0.5rem; */
+}
+
+h6 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: center;
+  bottom: 1%;
+  left: 30%;
+  right: 30%;
+  position: fixed;
+}
+
+.social-box{
+  border-radius: 20rem;
+  width: 20rem;
+  height: 4rem;
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.social-box:hover{
+  transition: 0.2s;
+  background-color: white;
+}
+
+.social-box:hover .icons-div{
+  color: black;
+}
+
+.icon{
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.icon:hover{
+  color: red;
+}
+
+.fa-arrow-down {
+  color: white;
+  font-size: 2rem;
+  margin-top: 80%;
+  align-items: center;
+  text-align: center;
+}
+
+.down-arrow {
+  border-radius: 10rem;
+  width: 5rem;
+  height: 10rem;
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.down-arrow:hover {
+  transition: 0.2s;
+  background-color: white;
+}
+
+.down-arrow:hover .fa-arrow-down {
+  color: red;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* SETTINGS */ 
+.settings-box {
+  background-color: #100F0F;
+  border-radius: 1rem;
+  width: 30%;
+  height: 22%;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.settings {
+  height: 2rem;
+  background-color: #ECE1FF;
+  border-radius: 0.3rem;
+}
+
+.email-label {
+  font-size: 0.8rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.done-button {
+  background-color: #9768F6;
+  border-radius: 0.2rem;
+  border: 0;
+  margin-left: 3rem;
+  /* width: 25%; */
+  height: 2rem;
+  text-align: center;
+}
+
+.toast-body {
+  color: #040308;
+}
